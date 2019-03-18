@@ -10,12 +10,12 @@ const GlobalStyle = createGlobalStyle`
 
   @font-face {
       font-family: 'DIN Regular';
-      src: url('/assets/fonts/din-regular-webfont.woff');
+      src: url('assets/fonts/din-regular-webfont.woff');
   }
 
   @font-face {
       font-family: 'DIN Light';
-      src: url('/assets/fonts/din-light-webfont.woff');
+      src: url('assets/fonts/din-light-webfont.woff');
   }
 
   html {
@@ -166,10 +166,10 @@ export default class Resume extends Component {
 
           <Period>
             <Company>
-              <Logo style={ { width: '24mm' } }><use xlinkHref="/assets/svg/elgin.svg#elgin"></use></Logo>
+              <Logo style={ { width: '24mm' } }><use xlinkHref="assets/svg/elgin.svg#elgin"></use></Logo>
               <Location>
                 <svg style={ { height: '6mm', width: '6mm' } }>
-                  <use xlinkHref="/assets/svg/location.svg#location"></use>
+                  <use xlinkHref="assets/svg/location.svg#location"></use>
                 </svg>
                 <LocationName>London/Lisbon</LocationName>
               </Location>
@@ -186,10 +186,10 @@ export default class Resume extends Component {
 
           <Period>
             <Company>
-              <Logo style={ { width: '24mm' } }><use xlinkHref="/assets/svg/dripcil.svg#dripcil"></use></Logo>
+              <Logo style={ { width: '24mm' } }><use xlinkHref="assets/svg/dripcil.svg#dripcil"></use></Logo>
               <Location>
                 <svg style={ { height: '6mm', width: '6mm' } }>
-                  <use xlinkHref="/assets/svg/location.svg#location"></use>
+                  <use xlinkHref="assets/svg/location.svg#location"></use>
                 </svg>
                 <LocationName>Lisbon</LocationName>
               </Location>
@@ -203,10 +203,10 @@ export default class Resume extends Component {
 
           <Period>
             <Company>
-              <Logo style={ { width: '24mm' } }><use xlinkHref="/assets/svg/cgd.svg#cgd"></use></Logo>
+              <Logo style={ { width: '24mm' } }><use xlinkHref="assets/svg/cgd.svg#cgd"></use></Logo>
               <Location>
                 <svg style={ { height: '6mm', width: '6mm' } }>
-                  <use xlinkHref="/assets/svg/location.svg#location"></use>
+                  <use xlinkHref="assets/svg/location.svg#location"></use>
                 </svg>
                 <LocationName>Lisbon</LocationName>
               </Location>
@@ -221,10 +221,10 @@ export default class Resume extends Component {
 
           <Period>
             <Company>
-              <Logo style={ { width: '38mm' } }><use xlinkHref="/assets/svg/freelancer.svg#freelancer"></use></Logo>
+              <Logo style={ { width: '38mm' } }><use xlinkHref="assets/svg/freelancer.svg#freelancer"></use></Logo>
               <Location>
                 <svg style={ { height: '6mm', width: '6mm' } }>
-                  <use xlinkHref="/assets/svg/location.svg#location"></use>
+                  <use xlinkHref="assets/svg/location.svg#location"></use>
                 </svg>
                 <LocationName>Lisbon</LocationName>
               </Location>
@@ -238,10 +238,10 @@ export default class Resume extends Component {
 
           <Period>
             <Company>
-              <Logo style={ { width: '25mm' } }><use xlinkHref="/assets/svg/tecnico.svg#tecnico"></use></Logo>
+              <Logo style={ { width: '25mm' } }><use xlinkHref="assets/svg/tecnico.svg#tecnico"></use></Logo>
               <Location>
                 <svg style={ { height: '6mm', width: '6mm' } }>
-                  <use xlinkHref="/assets/svg/location.svg#location"></use>
+                  <use xlinkHref="assets/svg/location.svg#location"></use>
                 </svg>
                 <LocationName>Lisbon</LocationName>
               </Location>
