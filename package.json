@@ -1,0 +1,61 @@
+{
+  "name": "resume",
+  "version": "0.0.1",
+  "description": "Resume as webpage with support for high quality pdf export",
+  "main": "webpack.config.js",
+  "author": "Rui Pinge",
+  "license": "MIT",
+  "homepage": "https://ruipinge.github.io/resume",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruipinge/resume"
+  },
+  "bugs": {
+    "url": "https://github.com/ruipinge/resume/issues"
+  },
+  "keywords": [
+    "resume",
+    "react",
+    "webpack",
+    "webpack 4",
+    "babel",
+    "es6",
+    "es7",
+    "styled-components",
+    "eslint"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.15.2",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-standard": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "styled-components": "^4.1.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dashboard": "^3.0.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.development.js",
+    "start:dash": "webpack-dashboard -- webpack-dev-server --config ./webpack.development.js -d --watch",
+    "build": "webpack --config ./webpack.production.js",
+    "clean": "rm -rf ./node_modules ./npm-debug.log ./dist"
+  }
+}
