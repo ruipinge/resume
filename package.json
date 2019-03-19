@@ -53,6 +53,7 @@
     "react-dom": "^16.8.4"
   },
   "scripts": {
+    "test": "echo Jest unit tests comming",
     "start": "webpack-dev-server --config ./webpack.development.js",
     "start:dash": "webpack-dashboard -- webpack-dev-server --config ./webpack.development.js -d --watch",
     "build": "webpack --config ./webpack.production.js",

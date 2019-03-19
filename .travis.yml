@@ -1,0 +1,28 @@
+sudo: false
+dist: trusty
+language: node_js
+branches:
+  only:
+    - master
+cache:
+  directories:
+    - node_modules
+# install: npm install (AUTO)
+# before_script:
+#  - npm run lint
+# script: npm test (AUTO)
+# after_success:
+#   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+before_deploy:
+  - npm run build
+  - mkdir -p ./gh-pages/dist
+  - cp ./dist/index.html ./gh-pages/
+  - cp ./dist/*.js ./gh-pages/dist/
+  - cp -r ./public/* ./gh-pages/
+deploy:
+  - provider: pages
+    local-dir: ./gh-pages
+    skip-cleanup: true
+    target-branch: gh-pages
+    github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+    keep-history: false

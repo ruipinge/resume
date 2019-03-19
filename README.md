@@ -1,6 +1,6 @@
-# Resume
+# Resume [![Build Status](https://travis-ci.org/ruipinge/resume.svg?branch=master)](https://travis-ci.org/ruipinge/resume)
 
-My resume as webpage with support for high quality pdf export.
+My resume as webpage with support for high quality pdf export. Check it out [here](https://ruipinge.github.io./resume).
 
 
 ## Dependencies
