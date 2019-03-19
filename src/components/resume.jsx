@@ -246,7 +246,7 @@ export default class Resume extends Component {
                 <LocationName>Lisbon</LocationName>
               </Location>
             </Company>
-            <Role>BSc Computer and Software Engineering<DateRange>| &nbsp;Sep '07 - Jul '03</DateRange></Role>
+            <Role>MSc in Computer Science and Engineering<DateRange>| &nbsp;Sep '07 - Jul '03</DateRange></Role>
           </Period>
 
           <br />
