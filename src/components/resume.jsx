@@ -175,7 +175,7 @@ export default class Resume extends Component {
             </Company>
             <Role>Software Engineer<DateRange>| &nbsp;Mar '14 - present</DateRange></Role>
             <Responsibilities>
-              <Responsibility>Responsible for the company's GIS web-based products including the public accessible hub roadworks.org</Responsibility>
+              <Responsibility>Architecture and development lead for the GIS web-based applications including the public accessible hub roadworks.org</Responsibility>
               <Responsibility>Full-stack architecture and implementation of live, planned, and historic road and traffic information systems</Responsibility>
               <Responsibility>Enforcer of software engineering best practices, making good use of Scrum methodology</Responsibility>
               <Responsibility>Mentoring of interns and junior developers</Responsibility>
