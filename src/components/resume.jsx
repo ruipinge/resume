@@ -174,11 +174,11 @@ export default class Resume extends Component {
                 <LocationName>London/Lisbon</LocationName>
               </Location>
             </Company>
-            <Role>Software engineer<DateRange>| &nbsp;Mar '14 - present</DateRange></Role>
+            <Role>Software Engineer<DateRange>| &nbsp;Mar '14 - present</DateRange></Role>
             <Responsibilities>
-              <Responsibility>Responsible for the company's GIS web-based products including the public accessible hub <a href="https://roadworks.org">roadworks.org</a></Responsibility>
+              <Responsibility>Responsible for the company's GIS web-based products including the public accessible hub roadworks.org</Responsibility>
               <Responsibility>Full-stack architecture and implementation of live, planned, and historic road and traffic information systems</Responsibility>
-              <Responsibility>Enforcer of software development best practices, making good use of Scrum methodology</Responsibility>
+              <Responsibility>Enforcer of software engineering best practices, making good use of Scrum methodology</Responsibility>
               <Responsibility>Mentoring of interns and junior developers</Responsibility>
               <Responsibility>tech stack: JavaScript, Google Maps API, Java, Spring, Dropwizard, PostGIS, Chef, AWS</Responsibility>
             </Responsibilities>
@@ -194,10 +194,10 @@ export default class Resume extends Component {
                 <LocationName>Lisbon</LocationName>
               </Location>
             </Company>
-            <Role>Co-Founder and Chief Executive Officer<DateRange>| &nbsp;Aug '11 - present</DateRange></Role>
+            <Role>Co-Founder, Chief Executive Officer<DateRange>| &nbsp;Aug '11 - present</DateRange></Role>
             <Responsibilities>
-              <Responsibility>Creation of DamnSimplePOS, a SaaS invoicing and point of sale software certified by the Portuguese Tax Authority</Responsibility>
-              <Responsibility>tech stack: App Engine, DataStore, Python, Django, JavaScript</Responsibility>
+              <Responsibility>Creation of DSP, a SaaS invoicing and point of sale software certified by the Portuguese Tax Authority</Responsibility>
+              <Responsibility>tech stack: App Engine, Datastore, Python, Django, JavaScript</Responsibility>
             </Responsibilities>
           </Period>
 
@@ -213,7 +213,7 @@ export default class Resume extends Component {
             </Company>
             <Role>Software Engineer, EAI Analyst<DateRange>| &nbsp;Mar '04 - Feb '14</DateRange></Role>
             <Responsibilities>
-              <Responsibility>Custom EAI application development and administration over IBM WebSphere Application Server (Java, JEE)</Responsibility>
+              <Responsibility>Custom EAI application development and administration over IBM WebSphere Application Server</Responsibility>
               <Responsibility>Focus on scalability, high-availability, transactionality, security, and EAI standards</Responsibility>
               <Responsibility>tech stack: Java, JEE, web services, JMS, WebSphere, IBM mainframe (CICS/CTG)</Responsibility>
             </Responsibilities>
@@ -229,7 +229,7 @@ export default class Resume extends Component {
                 <LocationName>Lisbon</LocationName>
               </Location>
             </Company>
-            <Role>Web development, systems administrator<DateRange>| &nbsp;Jan '02 - Jul '11</DateRange></Role>
+            <Role>Web Developer, Systems Administrator<DateRange>| &nbsp;Jan '02 - Jul '11</DateRange></Role>
             <Responsibilities>
               <Responsibility>Design, implementation, and maintenance of custom web applications, from e-commerce to intranets</Responsibility>
               <Responsibility>tech stack: JavaScript, ActionScript, PHP, Java, Apache, Tomcat, MySQL</Responsibility>

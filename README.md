@@ -5,15 +5,14 @@ My resume as webpage with support for high quality pdf export. Check it out [her
 
 ## Dependencies
 
-1. [Node.js](https://nodejs.org)
+1. [Node.js](https://nodejs.org) is required to run the project in local environment
 2. [Chrome](https://www.google.com/chrome/) 59 or higher is required for PDF export using [Headless Chromium](https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md)
 
 
 ## Local Environment
 
 ```console
-git clone git@github.com:ruipinge/resume.git
-cd resume
+git clone git@github.com:ruipinge/resume.git & cd resume
 npm install
 npm start
 ```
