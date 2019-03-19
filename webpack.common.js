@@ -2,14 +2,13 @@
 const webpack = require('webpack')
 const path = require('path')
 
-
 module.exports = {
   entry: './src/main.jsx',
   plugins: [
 
-        // Fixes module order, since the hash ids are based on the relative path
-        // https://webpack.js.org/guides/caching/#module-identifiers
-        new webpack.HashedModuleIdsPlugin()
+    // Fixes module order, since the hash ids are based on the relative path
+    // https://webpack.js.org/guides/caching/#module-identifiers
+    new webpack.HashedModuleIdsPlugin()
 
   ],
   optimization: {

@@ -150,14 +150,13 @@ const Responsibility = styled.li`
 `
 
 export default class Resume extends Component {
-
   render () {
     return (
       <div>
         <Page>
 
           <Header>
-              <Name>Rui Pinge</Name>
+            <Name>Rui Pinge</Name>
           </Header>
           <SubHeader>
             <Title>Software Engineer</Title>
@@ -267,5 +266,4 @@ export default class Resume extends Component {
       </div>
     )
   }
-
 }
