@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "react": "^16.10.2",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.11.0"
   },
   "scripts": {
     "build": "webpack --config ./webpack.production.js",
